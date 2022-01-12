@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4E9BEF2278E50F20078C42C /* LoginScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BEF1278E50F20078C42C /* LoginScreenApp.swift */; };
-		B4E9BEF4278E50F20078C42C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BEF3278E50F20078C42C /* ContentView.swift */; };
-		B4E9BEF6278E50F30078C42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E9BEF5278E50F30078C42C /* Assets.xcassets */; };
-		B4E9BEF9278E50F30078C42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E9BEF8278E50F30078C42C /* Preview Assets.xcassets */; };
+		B4E9BF0C278E5C9A0078C42C /* LoginScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BF0B278E5C9A0078C42C /* LoginScreenApp.swift */; };
+		B4E9BF0E278E5C9A0078C42C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BF0D278E5C9A0078C42C /* ContentView.swift */; };
+		B4E9BF10278E5C9E0078C42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E9BF0F278E5C9E0078C42C /* Assets.xcassets */; };
+		B4E9BF13278E5C9E0078C42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E9BF12278E5C9E0078C42C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4E9BEEE278E50F20078C42C /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4E9BEF1278E50F20078C42C /* LoginScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenApp.swift; sourceTree = "<group>"; };
-		B4E9BEF3278E50F20078C42C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B4E9BEF5278E50F30078C42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B4E9BEF8278E50F30078C42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4E9BF08278E5C9A0078C42C /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E9BF0B278E5C9A0078C42C /* LoginScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenApp.swift; sourceTree = "<group>"; };
+		B4E9BF0D278E5C9A0078C42C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4E9BF0F278E5C9E0078C42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4E9BF12278E5C9E0078C42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4E9BEEB278E50F20078C42C /* Frameworks */ = {
+		B4E9BF05278E5C9A0078C42C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B4E9BEE5278E50F20078C42C = {
+		B4E9BEFF278E5C9A0078C42C = {
 			isa = PBXGroup;
 			children = (
-				B4E9BEF0278E50F20078C42C /* LoginScreen */,
-				B4E9BEEF278E50F20078C42C /* Products */,
+				B4E9BF0A278E5C9A0078C42C /* LoginScreen */,
+				B4E9BF09278E5C9A0078C42C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B4E9BEEF278E50F20078C42C /* Products */ = {
+		B4E9BF09278E5C9A0078C42C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4E9BEEE278E50F20078C42C /* LoginScreen.app */,
+				B4E9BF08278E5C9A0078C42C /* LoginScreen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4E9BEF0278E50F20078C42C /* LoginScreen */ = {
+		B4E9BF0A278E5C9A0078C42C /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
-				B4E9BEF1278E50F20078C42C /* LoginScreenApp.swift */,
-				B4E9BEF3278E50F20078C42C /* ContentView.swift */,
-				B4E9BEF5278E50F30078C42C /* Assets.xcassets */,
-				B4E9BEF7278E50F30078C42C /* Preview Content */,
+				B4E9BF0B278E5C9A0078C42C /* LoginScreenApp.swift */,
+				B4E9BF0D278E5C9A0078C42C /* ContentView.swift */,
+				B4E9BF0F278E5C9E0078C42C /* Assets.xcassets */,
+				B4E9BF11278E5C9E0078C42C /* Preview Content */,
 			);
 			path = LoginScreen;
 			sourceTree = "<group>";
 		};
-		B4E9BEF7278E50F30078C42C /* Preview Content */ = {
+		B4E9BF11278E5C9E0078C42C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B4E9BEF8278E50F30078C42C /* Preview Assets.xcassets */,
+				B4E9BF12278E5C9E0078C42C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4E9BEED278E50F20078C42C /* LoginScreen */ = {
+		B4E9BF07278E5C9A0078C42C /* LoginScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4E9BEFC278E50F30078C42C /* Build configuration list for PBXNativeTarget "LoginScreen" */;
+			buildConfigurationList = B4E9BF16278E5C9E0078C42C /* Build configuration list for PBXNativeTarget "LoginScreen" */;
 			buildPhases = (
-				B4E9BEEA278E50F20078C42C /* Sources */,
-				B4E9BEEB278E50F20078C42C /* Frameworks */,
-				B4E9BEEC278E50F20078C42C /* Resources */,
+				B4E9BF04278E5C9A0078C42C /* Sources */,
+				B4E9BF05278E5C9A0078C42C /* Frameworks */,
+				B4E9BF06278E5C9A0078C42C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = LoginScreen;
 			productName = LoginScreen;
-			productReference = B4E9BEEE278E50F20078C42C /* LoginScreen.app */;
+			productReference = B4E9BF08278E5C9A0078C42C /* LoginScreen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4E9BEE6278E50F20078C42C /* Project object */ = {
+		B4E9BF00278E5C9A0078C42C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					B4E9BEED278E50F20078C42C = {
+					B4E9BF07278E5C9A0078C42C = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = B4E9BEE9278E50F20078C42C /* Build configuration list for PBXProject "LoginScreen" */;
+			buildConfigurationList = B4E9BF03278E5C9A0078C42C /* Build configuration list for PBXProject "LoginScreen" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = B4E9BEE5278E50F20078C42C;
-			productRefGroup = B4E9BEEF278E50F20078C42C /* Products */;
+			mainGroup = B4E9BEFF278E5C9A0078C42C;
+			productRefGroup = B4E9BF09278E5C9A0078C42C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4E9BEED278E50F20078C42C /* LoginScreen */,
+				B4E9BF07278E5C9A0078C42C /* LoginScreen */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4E9BEEC278E50F20078C42C /* Resources */ = {
+		B4E9BF06278E5C9A0078C42C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E9BEF9278E50F30078C42C /* Preview Assets.xcassets in Resources */,
-				B4E9BEF6278E50F30078C42C /* Assets.xcassets in Resources */,
+				B4E9BF13278E5C9E0078C42C /* Preview Assets.xcassets in Resources */,
+				B4E9BF10278E5C9E0078C42C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4E9BEEA278E50F20078C42C /* Sources */ = {
+		B4E9BF04278E5C9A0078C42C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E9BEF4278E50F20078C42C /* ContentView.swift in Sources */,
-				B4E9BEF2278E50F20078C42C /* LoginScreenApp.swift in Sources */,
+				B4E9BF0E278E5C9A0078C42C /* ContentView.swift in Sources */,
+				B4E9BF0C278E5C9A0078C42C /* LoginScreenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B4E9BEFA278E50F30078C42C /* Debug */ = {
+		B4E9BF14278E5C9E0078C42C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		B4E9BEFB278E50F30078C42C /* Release */ = {
+		B4E9BF15278E5C9E0078C42C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +261,7 @@
 			};
 			name = Release;
 		};
-		B4E9BEFD278E50F30078C42C /* Debug */ = {
+		B4E9BF17278E5C9E0078C42C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		B4E9BEFE278E50F30078C42C /* Release */ = {
+		B4E9BF18278E5C9E0078C42C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4E9BEE9278E50F20078C42C /* Build configuration list for PBXProject "LoginScreen" */ = {
+		B4E9BF03278E5C9A0078C42C /* Build configuration list for PBXProject "LoginScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4E9BEFA278E50F30078C42C /* Debug */,
-				B4E9BEFB278E50F30078C42C /* Release */,
+				B4E9BF14278E5C9E0078C42C /* Debug */,
+				B4E9BF15278E5C9E0078C42C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4E9BEFC278E50F30078C42C /* Build configuration list for PBXNativeTarget "LoginScreen" */ = {
+		B4E9BF16278E5C9E0078C42C /* Build configuration list for PBXNativeTarget "LoginScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4E9BEFD278E50F30078C42C /* Debug */,
-				B4E9BEFE278E50F30078C42C /* Release */,
+				B4E9BF17278E5C9E0078C42C /* Debug */,
+				B4E9BF18278E5C9E0078C42C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4E9BEE6278E50F20078C42C /* Project object */;
+	rootObject = B4E9BF00278E5C9A0078C42C /* Project object */;
 }

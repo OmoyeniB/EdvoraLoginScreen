@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
-
+let color = UIColor(red: 191/255, green: 155/255, blue: 155/255, alpha: 1/255)
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Image(uiImage: UIImage(named: "logo"))
+        }
     }
 }
 
