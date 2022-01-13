@@ -11,7 +11,7 @@
 		B4E9BF0E278E5C9A0078C42C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BF0D278E5C9A0078C42C /* ContentView.swift */; };
 		B4E9BF10278E5C9E0078C42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E9BF0F278E5C9E0078C42C /* Assets.xcassets */; };
 		B4E9BF13278E5C9E0078C42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E9BF12278E5C9E0078C42C /* Preview Assets.xcassets */; };
-		B4E9BF1A278E66500078C42C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BF19278E66500078C42C /* TextField.swift */; };
+		B4E9BF1A278E66500078C42C /* LoginScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9BF19278E66500078C42C /* LoginScreenItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		B4E9BF0D278E5C9A0078C42C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4E9BF0F278E5C9E0078C42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E9BF12278E5C9E0078C42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B4E9BF19278E66500078C42C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		B4E9BF19278E66500078C42C /* LoginScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				B4E9BF0D278E5C9A0078C42C /* ContentView.swift */,
+				B4E9BF19278E66500078C42C /* LoginScreenItem.swift */,
 				B4E9BF0B278E5C9A0078C42C /* LoginScreenApp.swift */,
-				B4E9BF19278E66500078C42C /* TextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E9BF1A278E66500078C42C /* TextField.swift in Sources */,
+				B4E9BF1A278E66500078C42C /* LoginScreenItem.swift in Sources */,
 				B4E9BF0E278E5C9A0078C42C /* ContentView.swift in Sources */,
 				B4E9BF0C278E5C9A0078C42C /* LoginScreenApp.swift in Sources */,
 			);
