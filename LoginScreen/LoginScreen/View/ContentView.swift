@@ -44,8 +44,8 @@ struct ContentView: View {
                 }
                 emailAddressText()
             }
-            .padding(.bottom, 25)
-            forgottenPasswordText()
+            ForgottenPasswordText()
+                
             Button(action: {
                 print("Login button has been clicked")
             }){
@@ -56,11 +56,13 @@ struct ContentView: View {
             }
             .padding(.bottom,31)
         }
+        .padding(.bottom,31)
     }
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 8")
     }
 }
 

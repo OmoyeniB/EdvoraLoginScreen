@@ -8,7 +8,7 @@ struct logoImage: View {
             .clipped()
             .aspectRatio(contentMode: .fill)
             .padding(.bottom, 107.78)
-            .padding(.top, 75)
+            .padding(.top, 74)
             .padding(.leading, 110)
             .padding(.trailing, 109)
     }
@@ -87,6 +87,7 @@ struct emailAddressText: View {
             .offset(x: 16)
             .padding(.top, -8)
             .frame(width: 110, height: 15)
+            .padding(.bottom, 59)
         Text("Email address")
             .font(.system(size: 15))
             .foregroundColor(textFieldColor)
@@ -95,15 +96,16 @@ struct emailAddressText: View {
             .padding(.horizontal, 4)
     }
 }
-struct forgottenPasswordText: View {
+struct ForgottenPasswordText: View {
     var body: some View{
-        Text("Forgotten password?")
-            .autocapitalization(.none)
-            .disableAutocorrection(true)
-            .foregroundColor(color)
-            .padding(.leading, 189)
-            .padding(.trailing, 34)
-            .padding(.bottom, 59)
+Text("Forgotten password?")
+    .autocapitalization(.none)
+    .disableAutocorrection(true)
+    .foregroundColor(color)
+    .padding(.leading, 12)
+    .padding(.trailing, -128)
+    .padding()
+    .padding(.bottom, 59)
     }
 }
 struct loginButton: View {
