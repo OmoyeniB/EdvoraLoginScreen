@@ -7,17 +7,17 @@ let textFieldColor = Color(red: 180/255, green: 180/255, blue: 180/255)
 struct ContentView: View {
     var body: some View {
         VStack(){
-            logoImage()
+            LogoImage()
             ZStack (alignment: .topLeading){
                 HStack{
                     HStack {
-                        usernameTextField()
+                        UsernameTextField()
                     }
                     .padding()
                     .overlay(RoundedRectangle(cornerRadius: 10).stroke(color, lineWidth: 1))
                     .frame(width: 302, height: 52)
                 }
-                userNameText()
+                UserNameText()
             }
             .padding(.bottom, 24)
             ZStack(alignment: .topLeading){
@@ -30,29 +30,29 @@ struct ContentView: View {
                                 .stroke(textFieldColor, lineWidth: 1))
                     .frame(width: 302, height: 52)
                 }
-                passwordText()
+                PasswordText()
             }
             .padding(.bottom, 24)
             ZStack (alignment: .topLeading){
                 HStack{
                     HStack {
-                        emailImage()
+                        EmailImage()
                     }
                     .padding()
                     .overlay(RoundedRectangle(cornerRadius: 10).stroke(textFieldColor, lineWidth: 1))
                     .frame(width: 302, height: 52, alignment: .leading)
                 }
-                emailAddressText()
+                EmailAddressText()
             }
             ForgottenPasswordText()
-                
+            
             Button(action: {
                 print("Login button has been clicked")
             }){
-                loginButton()
+                LoginButton()
             }
             HStack{
-                footText()
+                FootText()
             }
             .padding(.bottom,31)
         }

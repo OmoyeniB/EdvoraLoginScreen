@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct logoImage: View {
+struct LogoImage: View {
     var body: some View{
         Image("logos")
             .resizable()
@@ -13,7 +13,7 @@ struct logoImage: View {
             .padding(.trailing, 109)
     }
 }
-struct usernameTextField: View {
+struct UsernameTextField: View {
     @State var username: String = ""
     var body: some View{
         Image(systemName: "person.fill")
@@ -24,7 +24,7 @@ struct usernameTextField: View {
             .disableAutocorrection(true)
     }
 }
-struct userNameText: View {
+struct UserNameText: View {
     var body: some View{
         Rectangle()
             .fill(.white)
@@ -54,7 +54,7 @@ struct image: View {
             .foregroundColor(color)
     }
 }
-struct passwordText: View {
+struct PasswordText: View {
     @State var password: String = ""
     var body: some View{
         Rectangle()
@@ -70,7 +70,7 @@ struct passwordText: View {
             .padding(.horizontal, 4)
     }
 }
-struct emailImage: View {
+struct EmailImage: View {
     @State var email: String = ""
     var body: some View{
         Image(systemName: "at")
@@ -80,7 +80,7 @@ struct emailImage: View {
             .disableAutocorrection(true)
     }
 }
-struct emailAddressText: View {
+struct EmailAddressText: View {
     var body: some View{
         Rectangle()
             .fill(.white)
@@ -98,17 +98,17 @@ struct emailAddressText: View {
 }
 struct ForgottenPasswordText: View {
     var body: some View{
-Text("Forgotten password?")
-    .autocapitalization(.none)
-    .disableAutocorrection(true)
-    .foregroundColor(color)
-    .padding(.leading, 12)
-    .padding(.trailing, -128)
-    .padding()
-    .padding(.bottom, 59)
+        Text("Forgotten password?")
+            .autocapitalization(.none)
+            .disableAutocorrection(true)
+            .foregroundColor(color)
+            .padding(.leading, 12)
+            .padding(.trailing, -128)
+            .padding()
+            .padding(.bottom, 59)
     }
 }
-struct loginButton: View {
+struct LoginButton: View {
     var body: some View{
         Text("LOGIN")
             .font(.headline)
@@ -119,7 +119,7 @@ struct loginButton: View {
             .padding(.bottom, 30)
     }
 }
-struct footText: View {
+struct FootText: View {
     var body: some View{
         Text("Don't have an account?")
             .foregroundColor(.gray)
